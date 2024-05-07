@@ -12,7 +12,7 @@ Graph is represented in data1.txt as list of connections between nodes (i.e. sta
 MAIN IDEA
 
 Visiting of nodes on same layer can be parallelized, since vising of one node is mostly independent of visiting another node on the same layer (visiting means examination of node neighbours and planning of visiting them) 
-Points of conflict: deque of nodes which are planned to be visited (since both nodes that are being visited currently can are planning visits, so they write to deque) and also, vector of already visited nodes (same explanation here) 
+Points of conflict: deque of nodes which are planned to be visited (since both nodes that are being visited currently are planning visits, so they write to deque) and also, vector of already visited nodes (same explanation here) 
 
 RESULTS
 
